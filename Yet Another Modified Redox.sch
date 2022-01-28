@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L keyboard_parts:KEYSW K1
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K1
 U 1 1 60406242
 P 2250 2600
 F 0 "K1" H 2250 2833 60  0000 C CNN
@@ -36,7 +36,7 @@ F 3 "~" H 1800 2750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K6
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K6
 U 1 1 60407B93
 P 3200 2600
 F 0 "K6" H 3200 2833 60  0000 C CNN
@@ -58,7 +58,7 @@ F 3 "~" H 2750 2750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K2
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K2
 U 1 1 6041B78B
 P 2250 3200
 F 0 "K2" H 2250 3433 60  0000 C CNN
@@ -80,7 +80,7 @@ F 3 "~" H 1800 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K7
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K7
 U 1 1 6041B797
 P 3200 3200
 F 0 "K7" H 3200 3433 60  0000 C CNN
@@ -102,7 +102,7 @@ F 3 "~" H 2750 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K3
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K3
 U 1 1 604235F9
 P 2250 3800
 F 0 "K3" H 2250 4033 60  0000 C CNN
@@ -124,7 +124,7 @@ F 3 "~" H 1800 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K8
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K8
 U 1 1 60423605
 P 3200 3800
 F 0 "K8" H 3200 4033 60  0000 C CNN
@@ -146,7 +146,7 @@ F 3 "~" H 2750 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K4
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K4
 U 1 1 604258E3
 P 2250 4350
 F 0 "K4" H 2250 4583 60  0000 C CNN
@@ -168,7 +168,7 @@ F 3 "~" H 1800 4500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K9
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K9
 U 1 1 604258EF
 P 3200 4350
 F 0 "K9" H 3200 4583 60  0000 C CNN
@@ -190,7 +190,7 @@ F 3 "~" H 2750 4500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K5
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K5
 U 1 1 604284CF
 P 2250 4850
 F 0 "K5" H 2250 5083 60  0000 C CNN
@@ -212,7 +212,7 @@ F 3 "~" H 1800 5000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K10
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K10
 U 1 1 604284DB
 P 3200 4850
 F 0 "K10" H 3200 5083 60  0000 C CNN
@@ -254,47 +254,25 @@ Wire Wire Line
 Wire Wire Line
 	2750 3200 2900 3200
 $Comp
-L YAAJ_BluePill_Part_Like:YAAJ_BluePill_Part_Like U1
-U 1 1 605E8220
-P 20850 3950
-F 0 "U1" H 20850 5115 50  0000 C CNN
-F 1 "YAAJ_BluePill_Part_Like" H 20850 5024 50  0000 C CNN
-F 2 "Footprints:YAAJ_BluePill_1" H 21550 2950 50  0001 C CNN
-F 3 "" H 21550 2950 50  0001 C CNN
-	1    20850 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L YAAJ_BluePill_Part_Like:YAAJ_BluePill_Part_Like U2
-U 1 1 605ED30C
-P 23500 3950
-F 0 "U2" H 23500 5115 50  0000 C CNN
-F 1 "YAAJ_BluePill_Part_Like" H 23500 5024 50  0000 C CNN
-F 2 "Footprints:YAAJ_BluePill_1" H 24200 2950 50  0001 C CNN
-F 3 "" H 24200 2950 50  0001 C CNN
-	1    23500 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:AudioJack4 J2
 U 1 1 60624C1D
-P 22850 1850
-F 0 "J2" H 22520 1733 50  0000 R CNN
-F 1 "AudioJack4" H 22520 1824 50  0000 R CNN
-F 2 "WM_lib:TRRS-PJ-320A" H 22850 1850 50  0001 C CNN
-F 3 "~" H 22850 1850 50  0001 C CNN
-	1    22850 1850
+P 22500 1850
+F 0 "J2" H 22170 1733 50  0000 R CNN
+F 1 "AudioJack4" H 22170 1824 50  0000 R CNN
+F 2 "WM_lib:TRRS-PJ-320A" H 22500 1850 50  0001 C CNN
+F 3 "~" H 22500 1850 50  0001 C CNN
+	1    22500 1850
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:AudioJack4 J3
 U 1 1 60628624
-P 24400 1850
-F 0 "J3" H 24070 1733 50  0000 R CNN
-F 1 "AudioJack4" H 24070 1824 50  0000 R CNN
-F 2 "WM_lib:TRRS-PJ-320A" H 24400 1850 50  0001 C CNN
-F 3 "~" H 24400 1850 50  0001 C CNN
-	1    24400 1850
+P 24050 1850
+F 0 "J3" H 23720 1733 50  0000 R CNN
+F 1 "AudioJack4" H 23720 1824 50  0000 R CNN
+F 2 "WM_lib:TRRS-PJ-320A" H 24050 1850 50  0001 C CNN
+F 3 "~" H 24050 1850 50  0001 C CNN
+	1    24050 1850
 	-1   0    0    1   
 $EndComp
 Text Label 2550 1700 0    50   ~ 0
@@ -370,57 +348,8 @@ Wire Wire Line
 	3500 1700 3500 2600
 Wire Wire Line
 	2550 1700 2550 2600
-Text Label 19900 4050 2    50   ~ 0
-LC1
-Text Label 19900 4150 2    50   ~ 0
-LC2
-Text Label 19900 4250 2    50   ~ 0
-LC3
-Text Label 19900 4350 2    50   ~ 0
-LC4
-Text Label 19900 4450 2    50   ~ 0
-LC5
-Text Label 19900 4550 2    50   ~ 0
-LC6
-Text Label 19900 4650 2    50   ~ 0
-LC7
 Wire Wire Line
-	19900 4050 20050 4050
-Wire Wire Line
-	19900 4150 20050 4150
-Wire Wire Line
-	19900 4250 20050 4250
-Wire Wire Line
-	19900 4350 20050 4350
-Wire Wire Line
-	19900 4450 20050 4450
-Wire Wire Line
-	19900 4550 20050 4550
-Wire Wire Line
-	19900 4650 20050 4650
-Wire Wire Line
-	21650 3050 21750 3050
-Wire Wire Line
-	21650 3150 21750 3150
-Wire Wire Line
-	21750 3150 21750 3050
-Wire Wire Line
-	22600 2000 22600 1950
-Wire Wire Line
-	22600 1950 22650 1950
-Wire Wire Line
-	19950 4850 20050 4850
-$Comp
-L Connector:USB_B_Mini J1
-U 1 1 60F9A724
-P 19800 1850
-F 0 "J1" H 19857 2317 50  0000 C CNN
-F 1 "USB_B_Mini" H 19857 2226 50  0000 C CNN
-F 2 "digikey-footprints:USB_Mini_B_Female_690-005-299-043" H 19950 1800 50  0001 C CNN
-F 3 "~" H 19950 1800 50  0001 C CNN
-	1    19800 1850
-	1    0    0    -1  
-$EndComp
+	22250 1950 22300 1950
 $Comp
 L Device:LED D73
 U 1 1 60F9DD38
@@ -499,12 +428,6 @@ F 3 "http://www.diodes.com/assets/Datasheets/DMG2302U.pdf" H 28050 2550 50  0001
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	19950 4750 20050 4750
-Wire Wire Line
-	22600 4850 22700 4850
-Wire Wire Line
-	22600 4750 22700 4750
-Wire Wire Line
 	28150 1450 28150 1550
 Wire Wire Line
 	28150 1850 28150 1950
@@ -522,18 +445,6 @@ Wire Wire Line
 	26650 1850 26650 1950
 Wire Wire Line
 	26650 2250 26650 2350
-Text Label 19500 3050 0    50   ~ 0
-NUM_LOCK
-Text Label 19500 3150 0    50   ~ 0
-CAPSLOCK
-Text Label 19500 3250 0    50   ~ 0
-SCROLL_LOCK
-Wire Wire Line
-	19500 3050 20050 3050
-Wire Wire Line
-	20050 3150 19500 3150
-Wire Wire Line
-	19500 3250 20050 3250
 Text Label 26250 2050 1    50   ~ 0
 NUM_LOCK
 Text Label 27000 2050 1    50   ~ 0
@@ -673,163 +584,28 @@ F 3 "~" H 27750 2800 50  0001 C CNN
 	1    27750 2800
 	1    0    0    -1  
 $EndComp
-Text Label 19900 3350 0    50   ~ 0
-TX
+Text Label 22250 1750 2    50   ~ 0
+SCL_M
 Wire Wire Line
-	19900 3350 20050 3350
-Text Label 22500 1750 0    50   ~ 0
-TX
+	22250 1650 22300 1650
 Wire Wire Line
-	22600 1650 22650 1650
-Wire Wire Line
-	22500 1750 22650 1750
-Wire Wire Line
-	22600 1600 22600 1650
-Wire Wire Line
-	24150 1950 24200 1950
-Wire Wire Line
-	24050 1750 24200 1750
-Text Label 24050 1750 0    50   ~ 0
-RX
-Text Label 23650 1650 2    50   ~ 0
+	23800 1950 23850 1950
+Text Label 23300 1450 2    50   ~ 0
 R+5V
-Text Label 24150 1950 2    50   ~ 0
+Text Label 23800 1950 2    50   ~ 0
 RGND
 Wire Wire Line
-	19700 2250 19700 2350
+	18300 2250 18300 2350
 Wire Wire Line
-	19700 2350 19800 2350
+	18300 2350 18400 2350
 Wire Wire Line
-	19800 2250 19800 2350
-Connection ~ 19800 2350
+	18400 2250 18400 2350
+Connection ~ 18400 2350
 Wire Wire Line
-	19800 2350 20200 2350
-NoConn ~ 24200 1850
-NoConn ~ 22650 1850
-NoConn ~ 21650 3250
-Text Label 22600 4750 2    50   ~ 0
-R+5V
-Text Label 22600 4850 2    50   ~ 0
-RGND
-Text Label 24450 3050 0    50   ~ 0
-RGND
-Wire Wire Line
-	24300 3050 24450 3050
-Wire Wire Line
-	24450 3050 24450 3150
-Wire Wire Line
-	24450 3150 24300 3150
-NoConn ~ 24300 3250
-NoConn ~ 22700 4950
-NoConn ~ 24300 4950
-NoConn ~ 24300 4650
-NoConn ~ 24300 4750
-NoConn ~ 24300 4850
-NoConn ~ 21650 4950
-NoConn ~ 21650 4850
-NoConn ~ 21650 4750
-NoConn ~ 21650 4650
-NoConn ~ 20050 4950
-Text Label 21900 4550 2    50   ~ 0
-LR1
-Text Label 21900 4450 2    50   ~ 0
-LR2
-Text Label 21900 4350 2    50   ~ 0
-LR3
-Text Label 21900 4250 2    50   ~ 0
-LR4
-Text Label 21900 4150 2    50   ~ 0
-LR5
-Wire Wire Line
-	21900 4550 21650 4550
-Wire Wire Line
-	21650 4450 21900 4450
-Wire Wire Line
-	21900 4350 21650 4350
-Wire Wire Line
-	21650 4250 21900 4250
-Wire Wire Line
-	21650 4150 21900 4150
-Text Label 24550 4550 2    50   ~ 0
-RR1
-Text Label 24550 4450 2    50   ~ 0
-RR2
-Text Label 24550 4350 2    50   ~ 0
-RR3
-Text Label 24550 4250 2    50   ~ 0
-RR4
-Text Label 24550 4150 2    50   ~ 0
-RR5
-Wire Wire Line
-	24550 4550 24300 4550
-Wire Wire Line
-	24300 4450 24550 4450
-Wire Wire Line
-	24550 4350 24300 4350
-Wire Wire Line
-	24300 4250 24550 4250
-Wire Wire Line
-	24300 4150 24550 4150
-Text Label 22550 4050 2    50   ~ 0
-RC1
-Text Label 22550 4150 2    50   ~ 0
-RC2
-Text Label 22550 4250 2    50   ~ 0
-RC3
-Text Label 22550 4350 2    50   ~ 0
-RC4
-Text Label 22550 4450 2    50   ~ 0
-RC5
-Text Label 22550 4550 2    50   ~ 0
-RC6
-Text Label 22550 4650 2    50   ~ 0
-RC7
-Wire Wire Line
-	22550 4050 22700 4050
-Wire Wire Line
-	22550 4150 22700 4150
-Wire Wire Line
-	22550 4250 22700 4250
-Wire Wire Line
-	22550 4350 22700 4350
-Wire Wire Line
-	22550 4450 22700 4450
-Wire Wire Line
-	22550 4550 22700 4550
-Wire Wire Line
-	22550 4650 22700 4650
-Text Label 22450 3350 0    50   ~ 0
-RX
-NoConn ~ 20050 3450
-NoConn ~ 20050 3550
-NoConn ~ 20050 3650
-NoConn ~ 20050 3950
-NoConn ~ 21650 3450
-NoConn ~ 21650 3550
-NoConn ~ 21650 3650
-NoConn ~ 21650 3750
-NoConn ~ 21650 3850
-NoConn ~ 21650 3950
-NoConn ~ 21650 4050
-NoConn ~ 22700 3050
-NoConn ~ 22700 3150
-NoConn ~ 22700 3250
-NoConn ~ 22700 3450
-NoConn ~ 22700 3550
-NoConn ~ 22700 3650
-NoConn ~ 22700 3750
-NoConn ~ 22700 3850
-NoConn ~ 22700 3950
-NoConn ~ 24300 3450
-NoConn ~ 24300 3550
-NoConn ~ 24300 3650
-NoConn ~ 24300 3750
-NoConn ~ 24300 3850
-NoConn ~ 24300 3950
-NoConn ~ 24300 4050
-Text Label 21600 1650 0    50   ~ 0
+	18400 2350 18800 2350
+Text Label 20200 1650 0    50   ~ 0
 L+5V
-Text Label 20200 2350 0    50   ~ 0
+Text Label 18800 2350 0    50   ~ 0
 LGND
 Text Label 28150 1450 0    50   ~ 0
 L+5V
@@ -837,9 +613,7 @@ Text Label 27400 1450 0    50   ~ 0
 L+5V
 Text Label 26650 1450 0    50   ~ 0
 L+5V
-Text Label 22600 1600 2    50   ~ 0
-L+5V
-Text Label 19950 4750 2    50   ~ 0
+Text Label 22250 1650 2    50   ~ 0
 L+5V
 Text Label 28150 3050 0    50   ~ 0
 LGND
@@ -847,14 +621,10 @@ Text Label 27400 3050 0    50   ~ 0
 LGND
 Text Label 26650 3050 0    50   ~ 0
 LGND
-Text Label 19950 4850 2    50   ~ 0
-LGND
-Text Label 21750 3050 0    50   ~ 0
-LGND
-Text Label 22600 2000 2    50   ~ 0
+Text Label 22250 1950 2    50   ~ 0
 LGND
 $Comp
-L keyboard_parts:KEYSW K11
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K11
 U 1 1 6148183B
 P 4150 2600
 F 0 "K11" H 4150 2833 60  0000 C CNN
@@ -876,7 +646,7 @@ F 3 "~" H 3700 2750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K16
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K16
 U 1 1 61481847
 P 5100 2600
 F 0 "K16" H 5100 2833 60  0000 C CNN
@@ -898,7 +668,7 @@ F 3 "~" H 4650 2750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K12
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K12
 U 1 1 61481853
 P 4150 3200
 F 0 "K12" H 4150 3433 60  0000 C CNN
@@ -920,7 +690,7 @@ F 3 "~" H 3700 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K17
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K17
 U 1 1 6148185F
 P 5100 3200
 F 0 "K17" H 5100 3433 60  0000 C CNN
@@ -942,7 +712,7 @@ F 3 "~" H 4650 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K13
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K13
 U 1 1 6148186B
 P 4150 3800
 F 0 "K13" H 4150 4033 60  0000 C CNN
@@ -964,7 +734,7 @@ F 3 "~" H 3700 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K18
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K18
 U 1 1 61481877
 P 5100 3800
 F 0 "K18" H 5100 4033 60  0000 C CNN
@@ -986,7 +756,7 @@ F 3 "~" H 4650 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K14
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K14
 U 1 1 61481883
 P 4150 4350
 F 0 "K14" H 4150 4583 60  0000 C CNN
@@ -1008,7 +778,7 @@ F 3 "~" H 3700 4500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K19
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K19
 U 1 1 6148188F
 P 5100 4350
 F 0 "K19" H 5100 4583 60  0000 C CNN
@@ -1030,7 +800,7 @@ F 3 "~" H 4650 4500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K15
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K15
 U 1 1 6148189B
 P 4150 4850
 F 0 "K15" H 4150 5083 60  0000 C CNN
@@ -1052,7 +822,7 @@ F 3 "~" H 3700 5000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K20
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K20
 U 1 1 614818A7
 P 5100 4850
 F 0 "K20" H 5100 5083 60  0000 C CNN
@@ -1122,7 +892,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 1700 4450 2600
 $Comp
-L keyboard_parts:KEYSW K21
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K21
 U 1 1 6149E11F
 P 5950 2600
 F 0 "K21" H 5950 2833 60  0000 C CNN
@@ -1144,7 +914,7 @@ F 3 "~" H 5500 2750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K26
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K26
 U 1 1 6149E12B
 P 6900 2600
 F 0 "K26" H 6900 2833 60  0000 C CNN
@@ -1166,7 +936,7 @@ F 3 "~" H 6450 2750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K22
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K22
 U 1 1 6149E137
 P 5950 3200
 F 0 "K22" H 5950 3433 60  0000 C CNN
@@ -1188,7 +958,7 @@ F 3 "~" H 5500 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K27
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K27
 U 1 1 6149E143
 P 6900 3200
 F 0 "K27" H 6900 3433 60  0000 C CNN
@@ -1210,7 +980,7 @@ F 3 "~" H 6450 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K23
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K23
 U 1 1 6149E14F
 P 5950 3800
 F 0 "K23" H 5950 4033 60  0000 C CNN
@@ -1232,7 +1002,7 @@ F 3 "~" H 5500 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K28
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K28
 U 1 1 6149E15B
 P 6900 3800
 F 0 "K28" H 6900 4033 60  0000 C CNN
@@ -1254,7 +1024,7 @@ F 3 "~" H 6450 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K24
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K24
 U 1 1 6149E167
 P 5950 4350
 F 0 "K24" H 5950 4583 60  0000 C CNN
@@ -1276,7 +1046,7 @@ F 3 "~" H 5500 4500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K29
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K29
 U 1 1 6149E173
 P 6900 4350
 F 0 "K29" H 6900 4583 60  0000 C CNN
@@ -1298,7 +1068,7 @@ F 3 "~" H 6450 4500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K25
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K25
 U 1 1 6149E17F
 P 5950 4850
 F 0 "K25" H 5950 5083 60  0000 C CNN
@@ -1320,7 +1090,7 @@ F 3 "~" H 5500 5000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K30
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K30
 U 1 1 6149E18B
 P 6900 4850
 F 0 "K30" H 6900 5083 60  0000 C CNN
@@ -1390,7 +1160,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 1700 6250 2600
 $Comp
-L keyboard_parts:KEYSW K31
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K31
 U 1 1 614C3D61
 P 7750 2600
 F 0 "K31" H 7750 2833 60  0000 C CNN
@@ -1412,7 +1182,7 @@ F 3 "~" H 7300 2750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K32
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K32
 U 1 1 614C3D6D
 P 7750 3200
 F 0 "K32" H 7750 3433 60  0000 C CNN
@@ -1434,7 +1204,7 @@ F 3 "~" H 7300 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K33
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K33
 U 1 1 614C3D79
 P 7750 3800
 F 0 "K33" H 7750 4033 60  0000 C CNN
@@ -1456,7 +1226,7 @@ F 3 "~" H 7300 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K34
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K34
 U 1 1 614C3D85
 P 7750 4350
 F 0 "K34" H 7750 4583 60  0000 C CNN
@@ -1478,7 +1248,7 @@ F 3 "~" H 7300 4500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K35
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K35
 U 1 1 614C3D91
 P 7750 4850
 F 0 "K35" H 7750 5083 60  0000 C CNN
@@ -1573,7 +1343,7 @@ Connection ~ 4650 5150
 Wire Wire Line
 	4650 5150 3700 5150
 $Comp
-L keyboard_parts:KEYSW K36
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K36
 U 1 1 615F0556
 P 10100 2550
 F 0 "K36" H 10100 2783 60  0000 C CNN
@@ -1595,7 +1365,7 @@ F 3 "~" H 9650 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K41
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K41
 U 1 1 615F0562
 P 11050 2550
 F 0 "K41" H 11050 2783 60  0000 C CNN
@@ -1617,7 +1387,7 @@ F 3 "~" H 10600 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K37
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K37
 U 1 1 615F056E
 P 10100 3150
 F 0 "K37" H 10100 3383 60  0000 C CNN
@@ -1639,7 +1409,7 @@ F 3 "~" H 9650 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K42
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K42
 U 1 1 615F057A
 P 11050 3150
 F 0 "K42" H 11050 3383 60  0000 C CNN
@@ -1661,7 +1431,7 @@ F 3 "~" H 10600 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K38
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K38
 U 1 1 615F0586
 P 10100 3750
 F 0 "K38" H 10100 3983 60  0000 C CNN
@@ -1683,7 +1453,7 @@ F 3 "~" H 9650 3900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K43
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K43
 U 1 1 615F0592
 P 11050 3750
 F 0 "K43" H 11050 3983 60  0000 C CNN
@@ -1705,7 +1475,7 @@ F 3 "~" H 10600 3900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K39
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K39
 U 1 1 615F059E
 P 10100 4300
 F 0 "K39" H 10100 4533 60  0000 C CNN
@@ -1727,7 +1497,7 @@ F 3 "~" H 9650 4450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K44
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K44
 U 1 1 615F05AA
 P 11050 4300
 F 0 "K44" H 11050 4533 60  0000 C CNN
@@ -1749,7 +1519,7 @@ F 3 "~" H 10600 4450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K40
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K40
 U 1 1 615F05B6
 P 10100 4800
 F 0 "K40" H 10100 5033 60  0000 C CNN
@@ -1771,7 +1541,7 @@ F 3 "~" H 9650 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K45
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K45
 U 1 1 615F05C2
 P 11050 4800
 F 0 "K45" H 11050 5033 60  0000 C CNN
@@ -1886,7 +1656,7 @@ Wire Wire Line
 Wire Wire Line
 	10400 1650 10400 2550
 $Comp
-L keyboard_parts:KEYSW K46
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K46
 U 1 1 615F0602
 P 12000 2550
 F 0 "K46" H 12000 2783 60  0000 C CNN
@@ -1908,7 +1678,7 @@ F 3 "~" H 11550 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K51
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K51
 U 1 1 615F060E
 P 12950 2550
 F 0 "K51" H 12950 2783 60  0000 C CNN
@@ -1930,7 +1700,7 @@ F 3 "~" H 12500 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K47
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K47
 U 1 1 615F061A
 P 12000 3150
 F 0 "K47" H 12000 3383 60  0000 C CNN
@@ -1952,7 +1722,7 @@ F 3 "~" H 11550 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K52
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K52
 U 1 1 615F0626
 P 12950 3150
 F 0 "K52" H 12950 3383 60  0000 C CNN
@@ -1974,7 +1744,7 @@ F 3 "~" H 12500 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K48
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K48
 U 1 1 615F0632
 P 12000 3750
 F 0 "K48" H 12000 3983 60  0000 C CNN
@@ -1996,7 +1766,7 @@ F 3 "~" H 11550 3900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K53
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K53
 U 1 1 615F063E
 P 12950 3750
 F 0 "K53" H 12950 3983 60  0000 C CNN
@@ -2018,7 +1788,7 @@ F 3 "~" H 12500 3900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K49
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K49
 U 1 1 615F064A
 P 12000 4300
 F 0 "K49" H 12000 4533 60  0000 C CNN
@@ -2040,7 +1810,7 @@ F 3 "~" H 11550 4450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K54
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K54
 U 1 1 615F0656
 P 12950 4300
 F 0 "K54" H 12950 4533 60  0000 C CNN
@@ -2062,7 +1832,7 @@ F 3 "~" H 12500 4450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K50
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K50
 U 1 1 615F0662
 P 12000 4800
 F 0 "K50" H 12000 5033 60  0000 C CNN
@@ -2084,7 +1854,7 @@ F 3 "~" H 11550 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K55
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K55
 U 1 1 615F066E
 P 12950 4800
 F 0 "K55" H 12950 5033 60  0000 C CNN
@@ -2154,7 +1924,7 @@ Wire Wire Line
 Wire Wire Line
 	12300 1650 12300 2550
 $Comp
-L keyboard_parts:KEYSW K56
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K56
 U 1 1 615F0696
 P 13800 2550
 F 0 "K56" H 13800 2783 60  0000 C CNN
@@ -2176,7 +1946,7 @@ F 3 "~" H 13350 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K61
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K61
 U 1 1 615F06A2
 P 14750 2550
 F 0 "K61" H 14750 2783 60  0000 C CNN
@@ -2198,7 +1968,7 @@ F 3 "~" H 14300 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K57
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K57
 U 1 1 615F06AE
 P 13800 3150
 F 0 "K57" H 13800 3383 60  0000 C CNN
@@ -2220,7 +1990,7 @@ F 3 "~" H 13350 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K62
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K62
 U 1 1 615F06BA
 P 14750 3150
 F 0 "K62" H 14750 3383 60  0000 C CNN
@@ -2242,7 +2012,7 @@ F 3 "~" H 14300 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K58
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K58
 U 1 1 615F06C6
 P 13800 3750
 F 0 "K58" H 13800 3983 60  0000 C CNN
@@ -2264,7 +2034,7 @@ F 3 "~" H 13350 3900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K63
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K63
 U 1 1 615F06D2
 P 14750 3750
 F 0 "K63" H 14750 3983 60  0000 C CNN
@@ -2286,7 +2056,7 @@ F 3 "~" H 14300 3900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K59
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K59
 U 1 1 615F06DE
 P 13800 4300
 F 0 "K59" H 13800 4533 60  0000 C CNN
@@ -2308,7 +2078,7 @@ F 3 "~" H 13350 4450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K64
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K64
 U 1 1 615F06EA
 P 14750 4300
 F 0 "K64" H 14750 4533 60  0000 C CNN
@@ -2330,7 +2100,7 @@ F 3 "~" H 14300 4450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K60
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K60
 U 1 1 615F06F6
 P 13800 4800
 F 0 "K60" H 13800 5033 60  0000 C CNN
@@ -2352,7 +2122,7 @@ F 3 "~" H 13350 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K65
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K65
 U 1 1 615F0702
 P 14750 4800
 F 0 "K65" H 14750 5033 60  0000 C CNN
@@ -2422,7 +2192,7 @@ Wire Wire Line
 Wire Wire Line
 	14100 1650 14100 2550
 $Comp
-L keyboard_parts:KEYSW K66
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K66
 U 1 1 615F072A
 P 15600 2550
 F 0 "K66" H 15600 2783 60  0000 C CNN
@@ -2444,7 +2214,7 @@ F 3 "~" H 15150 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K67
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K67
 U 1 1 615F0736
 P 15600 3150
 F 0 "K67" H 15600 3383 60  0000 C CNN
@@ -2466,7 +2236,7 @@ F 3 "~" H 15150 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K68
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K68
 U 1 1 615F0742
 P 15600 3750
 F 0 "K68" H 15600 3983 60  0000 C CNN
@@ -2488,7 +2258,7 @@ F 3 "~" H 15150 3900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K69
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K69
 U 1 1 615F074E
 P 15600 4300
 F 0 "K69" H 15600 4533 60  0000 C CNN
@@ -2510,7 +2280,7 @@ F 3 "~" H 15150 4450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K70
+L Yet-Another-Modified-Redox-rescue:KEYSW-keyboard_parts K70
 U 1 1 615F075A
 P 15600 4800
 F 0 "K70" H 15600 5033 60  0000 C CNN
@@ -2664,123 +2434,84 @@ Connection ~ 13350 2850
 Connection ~ 14300 2850
 Wire Wire Line
 	14300 2850 13350 2850
-NoConn ~ 24300 3350
-NoConn ~ 21650 3350
-$Comp
-L Device:D_Schottky D74
-U 1 1 6193908C
-P 22300 3100
-F 0 "D74" V 22254 3180 50  0000 L CNN
-F 1 "D_Schottky" V 22345 3180 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 22300 3100 50  0001 C CNN
-F 3 "~" H 22300 3100 50  0001 C CNN
-	1    22300 3100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D75
-U 1 1 6193B2AB
-P 22300 3600
-F 0 "D75" V 22254 3680 50  0000 L CNN
-F 1 "D_Schottky" V 22345 3680 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 22300 3600 50  0001 C CNN
-F 3 "~" H 22300 3600 50  0001 C CNN
-	1    22300 3600
-	0    1    1    0   
-$EndComp
-Text Label 22300 3850 2    50   ~ 0
-RGND
-Text Label 22300 2850 2    50   ~ 0
-R+5V
-Wire Wire Line
-	22300 2850 22300 2950
-Wire Wire Line
-	22300 3250 22300 3350
-Wire Wire Line
-	22300 3750 22300 3850
-Wire Wire Line
-	22300 3350 22700 3350
-Connection ~ 22300 3350
-Wire Wire Line
-	22300 3350 22300 3450
 $Comp
 L Device:D_Schottky D76
 U 1 1 61A9258F
-P 23900 1650
-F 0 "D76" V 23854 1730 50  0000 L CNN
-F 1 "D_Schottky" V 23945 1730 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 23900 1650 50  0001 C CNN
-F 3 "~" H 23900 1650 50  0001 C CNN
-	1    23900 1650
+P 23550 1450
+F 0 "D76" V 23504 1530 50  0000 L CNN
+F 1 "D_Schottky" V 23595 1530 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 23550 1450 50  0001 C CNN
+F 3 "~" H 23550 1450 50  0001 C CNN
+	1    23550 1450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	24050 1650 24200 1650
+	23700 1650 23850 1650
 Wire Wire Line
-	23750 1650 23650 1650
+	23400 1450 23300 1450
 $Comp
 L pspice:INDUCTOR L1
 U 1 1 61B7FA26
-P 20750 1650
-F 0 "L1" H 20750 1865 50  0000 C CNN
-F 1 "2.2uH 204mR" H 20750 1774 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 20750 1650 50  0001 C CNN
-F 3 "~" H 20750 1650 50  0001 C CNN
-	1    20750 1650
+P 19350 1650
+F 0 "L1" H 19350 1865 50  0000 C CNN
+F 1 "2.2uH 204mR" H 19350 1774 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 19350 1650 50  0001 C CNN
+F 3 "~" H 19350 1650 50  0001 C CNN
+	1    19350 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C1
 U 1 1 61BB4E99
-P 20400 1800
-F 0 "C1" H 20515 1846 50  0000 L CNN
-F 1 "10nF" H 20515 1755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 20438 1650 50  0001 C CNN
-F 3 "~" H 20400 1800 50  0001 C CNN
-	1    20400 1800
+P 19000 1800
+F 0 "C1" H 19115 1846 50  0000 L CNN
+F 1 "10nF" H 19115 1755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 19038 1650 50  0001 C CNN
+F 3 "~" H 19000 1800 50  0001 C CNN
+	1    19000 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:CP C3
 U 1 1 61C3A0FD
-P 21450 1800
-F 0 "C3" H 21568 1846 50  0000 L CNN
-F 1 "4.7uF" H 21568 1755 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 21488 1650 50  0001 C CNN
-F 3 "~" H 21450 1800 50  0001 C CNN
-	1    21450 1800
+P 20050 1800
+F 0 "C3" H 20168 1846 50  0000 L CNN
+F 1 "4.7uF" H 20168 1755 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 20088 1650 50  0001 C CNN
+F 3 "~" H 20050 1800 50  0001 C CNN
+	1    20050 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C2
 U 1 1 61C3BF5C
-P 21100 1800
-F 0 "C2" H 21215 1846 50  0000 L CNN
-F 1 "100nF" H 21215 1755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 21138 1650 50  0001 C CNN
-F 3 "~" H 21100 1800 50  0001 C CNN
-	1    21100 1800
+P 19700 1800
+F 0 "C2" H 19815 1846 50  0000 L CNN
+F 1 "100nF" H 19815 1755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 19738 1650 50  0001 C CNN
+F 3 "~" H 19700 1800 50  0001 C CNN
+	1    19700 1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	20100 1650 20400 1650
-Connection ~ 20400 1650
+	18700 1650 19000 1650
+Connection ~ 19000 1650
 Wire Wire Line
-	20400 1650 20500 1650
+	19000 1650 19100 1650
 Wire Wire Line
-	21000 1650 21100 1650
-Connection ~ 21100 1650
+	19600 1650 19700 1650
+Connection ~ 19700 1650
 Wire Wire Line
-	21100 1650 21450 1650
-Connection ~ 21450 1650
+	19700 1650 20050 1650
+Connection ~ 20050 1650
 Wire Wire Line
-	21450 1650 21600 1650
+	20050 1650 20200 1650
 Wire Wire Line
-	20400 1950 21100 1950
-Connection ~ 21100 1950
+	19000 1950 19700 1950
+Connection ~ 19700 1950
 Wire Wire Line
-	21100 1950 21450 1950
-Connection ~ 20400 1950
+	19700 1950 20050 1950
+Connection ~ 19000 1950
 Wire Notes Line
 	900  1250 900  5350
 Wire Notes Line
@@ -2806,72 +2537,676 @@ Wire Notes Line
 Wire Notes Line
 	26050 3100 26050 1250
 Wire Notes Line
-	19400 5150 22000 5150
+	18050 1250 18050 2400
 Wire Notes Line
-	22000 2700 19400 2700
+	18050 2400 20450 2400
 Wire Notes Line
-	22050 2700 22050 5150
+	20450 2400 20450 1250
 Wire Notes Line
-	22050 5150 24700 5150
+	20450 1250 18050 1250
 Wire Notes Line
-	24700 5150 24700 2700
+	21950 1250 21950 2150
 Wire Notes Line
-	24700 2700 22050 2700
+	21950 2150 24850 2150
 Wire Notes Line
-	19400 2700 19400 5150
+	24850 2150 24850 1250
 Wire Notes Line
-	22000 2700 22000 5150
-Wire Notes Line
-	19450 1250 19450 2400
-Wire Notes Line
-	19450 2400 21850 2400
-Wire Notes Line
-	21850 2400 21850 1250
-Wire Notes Line
-	21850 1250 19450 1250
-Wire Notes Line
-	22300 1250 22300 2150
-Wire Notes Line
-	22300 2150 25200 2150
-Wire Notes Line
-	25200 2150 25200 1250
-Wire Notes Line
-	25200 1250 22300 1250
-Text Notes 26200 1250 0    50   ~ 0
+	24850 1250 21950 1250
+Text Notes 26050 1250 0    50   ~ 0
 Lock Indicators
-Text Notes 22350 1250 0    50   ~ 0
+Text Notes 21950 1250 0    50   ~ 0
 Half Connectors
-Text Notes 19500 1250 0    50   ~ 0
+Text Notes 18050 1250 0    50   ~ 0
 Power Conditioning
-Text Notes 19400 2700 0    50   ~ 0
-Left Controller
-Text Notes 22050 2700 0    50   ~ 0
-Right Controller
 Text Notes 900  1250 0    50   ~ 0
 Left Matrix
 Text Notes 8900 1250 0    50   ~ 0
 Right Matrix
 Wire Wire Line
-	20400 2200 20200 2200
+	19000 2200 18800 2200
 Wire Wire Line
-	20200 2200 20200 2350
+	18800 2200 18800 2350
 Wire Wire Line
-	20400 1950 20400 2200
-NoConn ~ 20100 2050
-Text Label 20150 1850 0    50   ~ 0
+	19000 1950 19000 2200
+NoConn ~ 18700 2050
+Text Label 18750 1850 0    50   ~ 0
 D+
-Text Label 20150 1950 0    50   ~ 0
+Text Label 18750 1950 0    50   ~ 0
 D-
 Wire Wire Line
-	20150 1850 20100 1850
+	18750 1850 18700 1850
 Wire Wire Line
-	20100 1950 20150 1950
-Text Label 19900 3750 2    50   ~ 0
-D-
-Text Label 19900 3850 2    50   ~ 0
+	18700 1950 18750 1950
+$Comp
+L Yet-Another-Modified-Redox-rescue:USB_B_Mini-Connector J1
+U 1 1 60F9A724
+P 18400 1850
+F 0 "J1" H 18457 2317 50  0000 C CNN
+F 1 "USB_B_Mini" H 18457 2226 50  0000 C CNN
+F 2 "digikey-footprints:USB_Mini_B_Female_690-005-299-043" H 18550 1800 50  0001 C CNN
+F 3 "~" H 18550 1800 50  0001 C CNN
+	1    18400 1850
+	1    0    0    -1  
+$EndComp
+Text Label 22250 1850 2    50   ~ 0
+SDA_M
+Wire Wire Line
+	22300 1850 22250 1850
+Wire Wire Line
+	22300 1750 22250 1750
+Text Label 23800 1750 2    50   ~ 0
+SCL_S
+Text Label 23800 1850 2    50   ~ 0
+SDA_S
+Wire Wire Line
+	23850 1850 23800 1850
+Wire Wire Line
+	23850 1750 23800 1750
+$Comp
+L RP2040_Stamp:RP2040_Stamp U2
+U 1 1 61D84ABE
+P 19550 5650
+F 0 "U2" H 19550 7465 50  0000 C CNN
+F 1 "RP2040_Stamp" H 19550 7374 50  0000 C CNN
+F 2 "RP2040_Stamp:RP2040_Stamp_SMD" H 20850 5000 50  0001 C CNN
+F 3 "" H 20850 5000 50  0001 C CNN
+	1    19550 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM_lib:CY8C9540A-IOExpander U1
+U 1 1 61D86196
+P 23700 5200
+F 0 "U1" H 23700 6665 50  0000 C CNN
+F 1 "CY8C9540A-IOExpander" H 23700 6574 50  0000 C CNN
+F 2 "Package_SO:SSOP-48_7.5x15.9mm_P0.635mm" H 23700 3500 50  0001 C CNN
+F 3 "" H 23700 5200 50  0001 C CNN
+	1    23700 5200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 19050 4200
+NoConn ~ 19050 4300
+NoConn ~ 19050 4700
+$Comp
+L Connector:TestPoint TP1
+U 1 1 61DBE041
+P 18900 5200
+F 0 "TP1" V 19003 5272 50  0000 C CNN
+F 1 "TP" V 19004 5272 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 19100 5200 50  0001 C CNN
+F 3 "~" H 19100 5200 50  0001 C CNN
+	1    18900 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 61DBE751
+P 18900 5300
+F 0 "TP2" V 19003 5372 50  0000 C CNN
+F 1 "TestPoint" V 19004 5372 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 19100 5300 50  0001 C CNN
+F 3 "~" H 19100 5300 50  0001 C CNN
+	1    18900 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18900 5200 19050 5200
+Wire Wire Line
+	19050 5300 18900 5300
+Text Label 22350 6350 2    50   ~ 0
+RGND
+Text Label 22750 5250 2    50   ~ 0
+RGND
+Wire Wire Line
+	22750 5250 22850 5250
+Text Label 24650 4050 0    50   ~ 0
+R+5V
+Wire Wire Line
+	24550 4050 24650 4050
+Text Label 18300 4900 2    50   ~ 0
 D+
+Text Label 18300 5000 2    50   ~ 0
+D-
+$Comp
+L Switch:SW_Push SW1
+U 1 1 61EE7E94
+P 18750 4500
+F 0 "SW1" H 18750 4785 50  0000 C CNN
+F 1 "SW_Push" H 18750 4694 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_SKQG_WithoutStem" H 18750 4700 50  0001 C CNN
+F 3 "~" H 18750 4700 50  0001 C CNN
+	1    18750 4500
+	1    0    0    -1  
+$EndComp
+Text Label 18950 7000 2    50   ~ 0
+LGND
 Wire Wire Line
-	20050 3750 19900 3750
+	18950 7000 19050 7000
+Text Label 18450 4500 2    50   ~ 0
+LGND
 Wire Wire Line
-	19900 3850 20050 3850
+	18450 4500 18550 4500
+Wire Wire Line
+	18950 4500 19050 4500
+Text Label 18900 4100 2    50   ~ 0
+L+5V
+Wire Wire Line
+	19050 4100 18900 4100
+Text Label 20150 4300 0    50   ~ 0
+LR1
+Text Label 20150 4400 0    50   ~ 0
+LR2
+Text Label 20150 4500 0    50   ~ 0
+LR3
+Text Label 20150 4600 0    50   ~ 0
+LR4
+Text Label 20150 4700 0    50   ~ 0
+LR5
+Text Label 20150 4200 0    50   ~ 0
+SCL_M
+Text Label 20150 4100 0    50   ~ 0
+SDA_M
+Wire Wire Line
+	20150 4200 20050 4200
+Wire Wire Line
+	20050 4100 20150 4100
+Text Label 22800 5950 2    50   ~ 0
+SCL_S
+Text Label 22800 6050 2    50   ~ 0
+SDA_S
+Wire Wire Line
+	22850 6050 22800 6050
+Wire Wire Line
+	22850 5950 22800 5950
+Text Label 20150 4800 0    50   ~ 0
+LC1
+Text Label 20150 4900 0    50   ~ 0
+LC2
+Text Label 20150 5000 0    50   ~ 0
+LC3
+Text Label 20150 5100 0    50   ~ 0
+LC4
+Text Label 20150 5200 0    50   ~ 0
+LC5
+Text Label 20150 5300 0    50   ~ 0
+LC6
+Text Label 20150 5400 0    50   ~ 0
+LC7
+Text Label 19800 3500 0    50   ~ 0
+SCL_M
+Text Label 19800 3400 0    50   ~ 0
+SDA_M
+Text Label 23700 3450 0    50   ~ 0
+SCL_S
+Text Label 23700 3350 0    50   ~ 0
+SDA_S
+Text Label 19250 3400 2    50   ~ 0
+L+5V
+Wire Wire Line
+	19400 3400 19350 3400
+$Comp
+L Device:R R10
+U 1 1 62247CEF
+P 19550 3400
+F 0 "R10" V 19343 3400 50  0000 C CNN
+F 1 "10kR" V 19434 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 19480 3400 50  0001 C CNN
+F 3 "~" H 19550 3400 50  0001 C CNN
+	1    19550 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 62249679
+P 19550 3500
+F 0 "R11" V 19343 3500 50  0000 C CNN
+F 1 "10kR" V 19434 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 19480 3500 50  0001 C CNN
+F 3 "~" H 19550 3500 50  0001 C CNN
+	1    19550 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19350 3400 19350 3500
+Wire Wire Line
+	19350 3500 19400 3500
+Connection ~ 19350 3400
+Wire Wire Line
+	19350 3400 19250 3400
+Wire Wire Line
+	19700 3400 19800 3400
+Wire Wire Line
+	19700 3500 19800 3500
+Text Label 23100 3350 2    50   ~ 0
+R+5V
+$Comp
+L Device:R R12
+U 1 1 622DADC1
+P 23450 3350
+F 0 "R12" V 23243 3350 50  0000 C CNN
+F 1 "1kR" V 23334 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 23380 3350 50  0001 C CNN
+F 3 "~" H 23450 3350 50  0001 C CNN
+	1    23450 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 622DADC7
+P 23450 3450
+F 0 "R13" V 23243 3450 50  0000 C CNN
+F 1 "1kR" V 23334 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 23380 3450 50  0001 C CNN
+F 3 "~" H 23450 3450 50  0001 C CNN
+	1    23450 3450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23100 3350 23200 3350
+Wire Wire Line
+	23200 3350 23200 3450
+Wire Wire Line
+	23200 3450 23300 3450
+Connection ~ 23200 3350
+Wire Wire Line
+	23200 3350 23300 3350
+Wire Wire Line
+	23600 3350 23700 3350
+Wire Wire Line
+	23600 3450 23700 3450
+Text Label 22750 4050 2    50   ~ 0
+RR1
+Text Label 22750 4150 2    50   ~ 0
+RR2
+Text Label 22750 4250 2    50   ~ 0
+RR3
+Text Label 22750 4350 2    50   ~ 0
+RR4
+Text Label 22750 4450 2    50   ~ 0
+RR5
+Text Label 24650 4150 0    50   ~ 0
+RC1
+Text Label 24650 4250 0    50   ~ 0
+RC2
+Text Label 24650 4350 0    50   ~ 0
+RC3
+Text Label 24650 4450 0    50   ~ 0
+RC4
+Text Label 24650 4550 0    50   ~ 0
+RC5
+Text Label 24650 4650 0    50   ~ 0
+RC6
+Text Label 24650 4750 0    50   ~ 0
+RC7
+Wire Wire Line
+	20050 4300 20150 4300
+Wire Wire Line
+	20050 4400 20150 4400
+Wire Wire Line
+	20050 4500 20150 4500
+Wire Wire Line
+	20050 4600 20150 4600
+Wire Wire Line
+	20150 4700 20050 4700
+Wire Wire Line
+	20050 4800 20150 4800
+Wire Wire Line
+	20150 4900 20050 4900
+Wire Wire Line
+	20050 5000 20150 5000
+Wire Wire Line
+	20150 5100 20050 5100
+Wire Wire Line
+	20050 5200 20150 5200
+Wire Wire Line
+	20150 5300 20050 5300
+Wire Wire Line
+	20050 5400 20150 5400
+Wire Wire Line
+	22750 4050 22850 4050
+Wire Wire Line
+	22850 4150 22750 4150
+Wire Wire Line
+	22750 4250 22850 4250
+Wire Wire Line
+	22850 4350 22750 4350
+Wire Wire Line
+	22750 4450 22850 4450
+Wire Wire Line
+	24550 4150 24650 4150
+Wire Wire Line
+	24650 4250 24550 4250
+Wire Wire Line
+	24550 4350 24650 4350
+Wire Wire Line
+	24650 4450 24550 4450
+Wire Wire Line
+	24550 4550 24650 4550
+Wire Wire Line
+	24650 4650 24550 4650
+Wire Wire Line
+	24550 4750 24650 4750
+$Comp
+L Device:R R16
+U 1 1 62775D9A
+P 22600 6250
+F 0 "R16" V 22393 6250 50  0000 C CNN
+F 1 "100R" V 22484 6250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 22530 6250 50  0001 C CNN
+F 3 "~" H 22600 6250 50  0001 C CNN
+	1    22600 6250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	22350 6350 22400 6350
+Wire Wire Line
+	22450 6250 22400 6250
+Wire Wire Line
+	22400 6250 22400 6350
+Connection ~ 22400 6350
+Wire Wire Line
+	22400 6350 22850 6350
+Wire Wire Line
+	22750 6250 22850 6250
+NoConn ~ 20050 5800
+NoConn ~ 20050 5900
+NoConn ~ 20050 6000
+NoConn ~ 20050 6100
+NoConn ~ 20050 6200
+NoConn ~ 20050 6300
+NoConn ~ 20050 6400
+NoConn ~ 20050 6500
+NoConn ~ 20050 6600
+NoConn ~ 20050 6700
+NoConn ~ 20050 6800
+NoConn ~ 20050 6900
+NoConn ~ 20050 7000
+Text Label 20150 5500 0    50   ~ 0
+NUM_LOCK
+Text Label 20150 5600 0    50   ~ 0
+CAPSLOCK
+Text Label 20150 5700 0    50   ~ 0
+SCROLL_LOCK
+Wire Wire Line
+	20150 5500 20050 5500
+Wire Wire Line
+	20050 5600 20150 5600
+Wire Wire Line
+	20150 5700 20050 5700
+$Comp
+L Device:C C5
+U 1 1 62B61B22
+P 18550 5950
+F 0 "C5" H 18665 5996 50  0000 L CNN
+F 1 "1uF" H 18665 5905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 18588 5800 50  0001 C CNN
+F 3 "~" H 18550 5950 50  0001 C CNN
+	1    18550 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 62B6365F
+P 22200 4800
+F 0 "C4" H 22315 4846 50  0000 L CNN
+F 1 "1uF" H 22315 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 22238 4650 50  0001 C CNN
+F 3 "~" H 22200 4800 50  0001 C CNN
+	1    22200 4800
+	1    0    0    -1  
+$EndComp
+Text Label 22200 5050 3    50   ~ 0
+RGND
+Wire Wire Line
+	22200 5050 22200 4950
+Text Label 22200 4550 1    50   ~ 0
+R+5V
+Wire Wire Line
+	22200 4650 22200 4550
+Text Label 18550 6200 3    50   ~ 0
+LGND
+Wire Wire Line
+	18550 6200 18550 6100
+Text Label 18550 5650 1    50   ~ 0
+L+5V
+Wire Wire Line
+	18550 5800 18550 5650
+NoConn ~ 22850 4850
+NoConn ~ 22850 4950
+NoConn ~ 22850 5050
+NoConn ~ 22850 5150
+NoConn ~ 22850 5350
+NoConn ~ 22850 5450
+NoConn ~ 22850 5550
+NoConn ~ 22850 5650
+NoConn ~ 22850 5750
+NoConn ~ 22850 5850
+NoConn ~ 22850 6150
+NoConn ~ 24550 6350
+NoConn ~ 24550 6250
+NoConn ~ 24550 6150
+NoConn ~ 24550 6050
+NoConn ~ 24550 5950
+NoConn ~ 24550 5850
+NoConn ~ 24550 5750
+NoConn ~ 24550 5650
+NoConn ~ 24550 5550
+NoConn ~ 24550 5450
+NoConn ~ 24550 5350
+NoConn ~ 24550 5250
+NoConn ~ 24550 5150
+NoConn ~ 24550 5050
+NoConn ~ 24550 4950
+NoConn ~ 24550 4850
+$Comp
+L Device:R R14
+U 1 1 62F38AE5
+P 18550 4900
+F 0 "R14" V 18343 4900 50  0000 C CNN
+F 1 "20R" V 18434 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 18480 4900 50  0001 C CNN
+F 3 "~" H 18550 4900 50  0001 C CNN
+	1    18550 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 62F3A0CD
+P 18550 5000
+F 0 "R15" V 18343 5000 50  0000 C CNN
+F 1 "20R" V 18434 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 18480 5000 50  0001 C CNN
+F 3 "~" H 18550 5000 50  0001 C CNN
+	1    18550 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18300 4900 18400 4900
+Wire Wire Line
+	18400 5000 18300 5000
+Wire Wire Line
+	18700 4900 19050 4900
+Wire Wire Line
+	18700 5000 19050 5000
+Wire Notes Line
+	18050 3050 20800 3050
+Wire Notes Line
+	20800 3050 20800 7300
+Wire Notes Line
+	20800 7300 18050 7300
+Wire Notes Line
+	18050 7300 18050 3050
+Wire Notes Line
+	21950 3050 25100 3050
+Wire Notes Line
+	25100 3050 25100 6650
+Wire Notes Line
+	25100 6650 21950 6650
+Wire Notes Line
+	21950 6650 21950 3050
+Text Notes 21950 3050 0    50   ~ 0
+Right Control
+Text Notes 18050 3050 0    50   ~ 0
+Left Control
+NoConn ~ 22850 4550
+NoConn ~ 22850 4650
+NoConn ~ 22850 4750
+Text Label 18800 1650 0    50   ~ 0
+VBUS
+Text Label 18750 4900 0    50   ~ 0
+D_C+
+Text Label 18750 5000 0    50   ~ 0
+D_C-
+Wire Wire Line
+	23700 1450 23700 1650
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 63382950
+P 18150 7450
+F 0 "H6" H 18250 7499 50  0000 L CNN
+F 1 "M3" H 18250 7408 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 18150 7450 50  0001 C CNN
+F 3 "~" H 18150 7450 50  0001 C CNN
+	1    18150 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H7
+U 1 1 633F55E1
+P 18450 7450
+F 0 "H7" H 18550 7499 50  0000 L CNN
+F 1 "M3" H 18550 7408 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 18450 7450 50  0001 C CNN
+F 3 "~" H 18450 7450 50  0001 C CNN
+	1    18450 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H8
+U 1 1 63411216
+P 18750 7450
+F 0 "H8" H 18850 7499 50  0000 L CNN
+F 1 "M3" H 18850 7408 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 18750 7450 50  0001 C CNN
+F 3 "~" H 18750 7450 50  0001 C CNN
+	1    18750 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H9
+U 1 1 6341121C
+P 19050 7450
+F 0 "H9" H 19150 7499 50  0000 L CNN
+F 1 "M3" H 19150 7408 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 19050 7450 50  0001 C CNN
+F 3 "~" H 19050 7450 50  0001 C CNN
+	1    19050 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 634497D8
+P 22050 6800
+F 0 "H1" H 22150 6849 50  0000 L CNN
+F 1 "M3" H 22150 6758 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 22050 6800 50  0001 C CNN
+F 3 "~" H 22050 6800 50  0001 C CNN
+	1    22050 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 634497DE
+P 22350 6800
+F 0 "H2" H 22450 6849 50  0000 L CNN
+F 1 "M3" H 22450 6758 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 22350 6800 50  0001 C CNN
+F 3 "~" H 22350 6800 50  0001 C CNN
+	1    22350 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 634497E4
+P 22650 6800
+F 0 "H3" H 22750 6849 50  0000 L CNN
+F 1 "M3" H 22750 6758 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 22650 6800 50  0001 C CNN
+F 3 "~" H 22650 6800 50  0001 C CNN
+	1    22650 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 634497EA
+P 22950 6800
+F 0 "H4" H 23050 6849 50  0000 L CNN
+F 1 "M3" H 23050 6758 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 22950 6800 50  0001 C CNN
+F 3 "~" H 22950 6800 50  0001 C CNN
+	1    22950 6800
+	1    0    0    -1  
+$EndComp
+Text Label 18150 7650 3    50   ~ 0
+LGND
+Wire Wire Line
+	18150 7650 18150 7550
+Text Label 18450 7650 3    50   ~ 0
+LGND
+Wire Wire Line
+	18450 7650 18450 7550
+Text Label 18750 7650 3    50   ~ 0
+LGND
+Wire Wire Line
+	18750 7650 18750 7550
+Text Label 19050 7650 3    50   ~ 0
+LGND
+Wire Wire Line
+	19050 7650 19050 7550
+Text Label 22050 6950 3    50   ~ 0
+RGND
+Wire Wire Line
+	22050 6950 22050 6900
+Text Label 22350 6950 3    50   ~ 0
+RGND
+Wire Wire Line
+	22350 6950 22350 6900
+Text Label 22650 6950 3    50   ~ 0
+RGND
+Wire Wire Line
+	22650 6950 22650 6900
+Text Label 22950 6950 3    50   ~ 0
+RGND
+Wire Wire Line
+	22950 6950 22950 6900
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 63577AEE
+P 23250 6800
+F 0 "H5" H 23350 6849 50  0000 L CNN
+F 1 "M3" H 23350 6758 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 23250 6800 50  0001 C CNN
+F 3 "~" H 23250 6800 50  0001 C CNN
+	1    23250 6800
+	1    0    0    -1  
+$EndComp
+Text Label 23250 6950 3    50   ~ 0
+RGND
+Wire Wire Line
+	23250 6950 23250 6900
+$Comp
+L Mechanical:MountingHole_Pad H10
+U 1 1 635957EB
+P 19350 7450
+F 0 "H10" H 19450 7499 50  0000 L CNN
+F 1 "M3" H 19450 7408 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 19350 7450 50  0001 C CNN
+F 3 "~" H 19350 7450 50  0001 C CNN
+	1    19350 7450
+	1    0    0    -1  
+$EndComp
+Text Label 19350 7650 3    50   ~ 0
+LGND
+Wire Wire Line
+	19350 7650 19350 7550
 $EndSCHEMATC
